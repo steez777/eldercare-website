@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElderCare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ElderCare</h1>
+            </div>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#about">ElderCareについて</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>高齢者のための包括的なサポートサービス</h2>
+            <p>日常生活支援から健康管理まで、ElderCareがすべてをサポートします。</p>
+            <a href="#services" class="btn">サービスを詳しく見る</a>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>サービス内容</h2>
+        <div class="service">
+            <h3>日常生活支援</h3>
+            <p>買い物代行、掃除、料理などの日常生活をサポートします。</p>
+        </div>
+        <div class="service">
+            <h3>健康管理サポート</h3>
+            <p>定期的な健康チェックや病院への送迎を提供します。</p>
+        </div>
+        <div class="service">
+            <h3>社会参加支援</h3>
+            <p>趣味の活動やイベントへの参加をサポートします。</p>
+        </div>
+        <div class="service">
+            <h3>技術サポート</h3>
+            <p>スマートフォンやタブレットの使い方を指導します。</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>ElderCareについて</h2>
+        <p>ElderCareは、高齢者の生活の質を向上させるために包括的なサポートを提供します。地域社会と連携し、安全で信頼性の高いサービスを提供することを目指しています。</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>お問い合わせ</h2>
+        <form action="submit_form" method="post">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn">送信</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 ElderCare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
